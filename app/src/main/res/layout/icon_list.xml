@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:cardview="http://schemas.android.com/tools"
+    android:padding="5dp"
+    cardview:cardElevation="5dp"
+    cardview:cardCornerRadius="2dp"
+    cardview:contentPaddingLeft="16dp"
+    cardview:contentPaddingRight="16dp"
+    cardview:contentPaddingTop="16dp"
+    cardview:contentPaddingBottom="16dp"
+    cardview:cardPreventCornerOverlap="false"
+    cardview:theme="@style/AlertDialog.AppCompat">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="130dp"
+    android:layout_gravity="center"
+    android:id="@+id/ivIcons"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ivIcons"
+            android:textStyle="bold"
+            android:layout_gravity="bottom|center_horizontal"
+            android:id="@+id/tvName"
+            android:text="Picture"/>
+
+
+
+</LinearLayout>
+</RelativeLayout>
+</android.support.v7.widget.CardView>

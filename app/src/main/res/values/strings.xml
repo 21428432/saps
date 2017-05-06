@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SAPS</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="rights"> All Rights Reserved 2017</string>
+    <string name="tm">AppTech™</string>
+    <string name="heard">SAPS for Android™</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
